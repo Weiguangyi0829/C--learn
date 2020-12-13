@@ -1,0 +1,13 @@
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.exe
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.deps.json
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.runtimeconfig.json
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.runtimeconfig.dev.json
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.dll
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\bin\Debug\netcoreapp3.1\day01.pdb
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.csprojAssemblyReference.cache
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.csproj.CoreCompileInputs.cache
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.AssemblyInfoInputs.cache
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.AssemblyInfo.cs
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.dll
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.pdb
+C:\Users\wgy\Desktop\file\CSharp-learn\day01\day01\obj\Debug\netcoreapp3.1\day01.genruntimeconfig.cache
