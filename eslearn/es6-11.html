@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+
+
+
+    //-----解构赋值
+
+    const test1 = {
+        name: 't1',
+        id: '01',
+        fuc: function () {
+            // console.log("1.解构赋值");
+        }
+    }
+    let { name, id, fuc } = test1;
+    //console.log(name);
+    //console.log(fuc);
+    fuc();
+
+
+    //-----箭头函数
+    function getName() {
+        //console.log(this.name);
+    }
+    let getName2 = () => {
+        // console.log(this.name);
+    }
+
+    window.name = 'test2';
+    const test2 = {
+        name: '02'
+    }
+
+    getName.call(test2);
+    getName2.call(test2);
+    //()=>
+    //不能成为构造实例化对象
+    //不能使用arguments变量
+
+
+    //-----迭代器
+    const xiyou = {
+        name: "西游",
+        list: ['唐僧', '孙悟空', '猪八戒', '沙僧'],
+        [Symbol.iterator]() {
+            let i = 0;
+            // let _this = this;
+            return {
+                next: ()=> {
+                    if (i < this.list.length) {
+                        const result = { value: this.list[i], done: false };
+                        i++;
+                        return result;
+                    } else {
+                        return { value: undefined, done: true }
+                    }
+                }
+            }
+        }
+
+    }
+for(let v of xiyou){
+    // console.log(v);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<body>
+
+</body>
+
+</html>
