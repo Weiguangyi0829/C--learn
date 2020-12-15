@@ -54,7 +54,7 @@
             let i = 0;
             // let _this = this;
             return {
-                next: ()=> {
+                next: () => {
                     if (i < this.list.length) {
                         const result = { value: this.list[i], done: false };
                         i++;
@@ -67,9 +67,50 @@
         }
 
     }
-for(let v of xiyou){
-    // console.log(v);
-}
+    for (let v of xiyou) {
+        // console.log(v);
+    }
+
+
+
+    //-----生成器
+
+    //回调地狱
+    /* setTimeout(() => {
+        console.log(111);
+        setTimeout(() => {
+            console.log(222);
+            setTimeout(() => {
+                console.log(333);
+            }, 1000);
+        }, 1000);
+    }, 1000); */
+    function one() {
+        setTimeout(() => {
+            console.log(111);
+            iterator.next();
+        },1000)
+    }
+    function two() {
+        setTimeout(() => {
+            console.log(222);
+            iterator.next();
+        },1000)
+    }
+    function three() {
+        setTimeout(() => {
+            console.log(333);
+            iterator.next();
+        },1000)
+    }
+    function* gen(){
+        yield one();
+        yield two();
+        yield three();
+    }
+    //调用生成器函数
+    let iterator = gen();
+    iterator.next();
 
 
 
